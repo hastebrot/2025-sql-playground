@@ -1,0 +1,12 @@
+{
+  "name": "sources",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.1.16",
+    "postgres": "^3.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
