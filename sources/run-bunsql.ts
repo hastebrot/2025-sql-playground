@@ -7,9 +7,3 @@ if (import.meta.main) {
 
   await sql.close();
 }
-
-type NonEmptyArray<T> = [T, ...T[]];
-
-const okay: NonEmptyArray<number> = [1, 2];
-const alsoOkay: NonEmptyArray<number> = [1];
-const err: NonEmptyArray<number> = []; // error!
